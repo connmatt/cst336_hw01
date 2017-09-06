@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        
+        <meta charset="utf-8" />
+        <title> Game Development </title>
+       <style>
+            body{
+                background-color: #040059 !important;
+            } 
+        </style>
+          <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">    
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body class="csharp" style="background-color:black; color:white">
+        <header>
+            <h1> Game Development </h1>
+        </header>
+        <nav>
+            <hr/>
+            <a href="home.html" class="home">Home</a>
+            <a href="unity.html" class="unity">Unity</a>
+            <a href="csharp.html" class="csharp">C#</a>
+            <a href="sprites.html" class="sprites">Sprites</a>
+        </nav>
+            <br /><br />
+            <figure id="cshp">
+                <img src="img/c.png" alt="Picture of C# logo" />
+            </figure>
+            <div id ="info">
+                <p>C# is a programming language that was created by Microsoft to on on the .NET Framework.</p>
+                <p>It is a general-purpose, object-oriented programming language.</p>
+                <p>The design goals of c# is to be suitable for writing applications for hosted and embedded systems.</p>
+                <p>It is also known to be economical when it comes to memory and processing power.</p><br/><br/>
+                
+            </div>
+            <p id="sent"><b>Here is a sample of my c# code from a game I was working on: </b></p>
+            <div id="code">
+                
+                <pre>
+                <code>private void HandleInput()</code>
+                <code>{</code>
+                <code>      if(Input.GetKeyDown (KeyCode.LeftShift))</code>
+                <code>      {</code>
+                <code>          attack = true;</code>
+                <code>      }</code>
+                <code>      if(Input.GetKeyDown (KeyCode.Space))</code>
+                <code>      {</code>
+                <code>          jump=true;</code>
+                <code>      }</code>
+                <code> }</code>
+                </pre>
+            </div>
+        <footer>
+            <img src="img/CSUMBLogo.png" alt="Picture of CSUMB Logo" />
+            <hr>
+            CST336 Internet Programming. 2017&copy; Connolly <br/>
+            <strong> Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
